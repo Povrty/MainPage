@@ -60,11 +60,12 @@ button:hover {
 }
 .header {
     text-align: center;
-    padding: 25px;
 }
 img {
     opacity: 0.5;
     transition: opacity 1s;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 img:hover {
     opacity: 1;
@@ -75,4 +76,8 @@ img:hover {
 }
 .home:hover {
     background-color: #3CB371;
+}
+hr {
+    width: 100%;
+    background-color: #454545;
 }
