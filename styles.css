@@ -76,23 +76,3 @@ img:hover {
 .home:hover {
     background-color: #3CB371;
 }
-
-.parent {
-    position: relative;
-    overflow: visible;
-}
-
-.menu {
-    position: absolute;
-    top: 50px;
-}
-
-
-.menu {
-    display: none;
-}
-
-
-.parent:hover .menu {
-    display: block;
-}
